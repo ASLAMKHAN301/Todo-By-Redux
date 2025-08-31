@@ -17,8 +17,8 @@ export default function App() {
   // const [value, setValue] = useState("");
   // const [input, setInput] = useState([]);
 
-  console.log(value);
-  console.log(todo);
+  // console.log(value);
+  // console.log(todo);
   function handleAddItem(e) {
     e.preventDefault();
     dispatch(addTodo());
